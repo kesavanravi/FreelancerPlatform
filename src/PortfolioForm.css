@@ -1,0 +1,46 @@
+.portfolio-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .portfolio-form h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .portfolio-form input[type="text"],
+  .portfolio-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    width: 100%;
+  }
+  
+  .portfolio-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .portfolio-form input[type="file"] {
+    font-size: 14px;
+  }
+  
+  .portfolio-form button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
